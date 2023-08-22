@@ -16,6 +16,6 @@ def contar_palabras(cadena):
 cadena_input = input("Ingrese una cadena de caracteres: ")
 resultado = contar_palabras(cadena_input)
 
-print("frecuecia de palabras: ")
+print("frecuencia de palabras: ")
 for palabra, cantidad in resultado.items():
     print(f"'{palabra}': {cantidad}")
